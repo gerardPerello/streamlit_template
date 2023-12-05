@@ -27,6 +27,10 @@ Follow these steps to set up the Streamlit app:
 
 2. **Install Required Libraries:** Run the installation of libraries using the `requirements.txt` file. This file contains all the necessary Python libraries that your Streamlit app will need.
 
+  ```
+  pip install -r requirements.txt
+  ```
+
 3. **Create Credentials File:** You need to create a `Credentials.py` file using the `Credentials_Template.py` as a guide. This file will be used for the Snowflake connection.
 
 4. **Run the Streamlit App:** Finally, to run the Streamlit app, use the following command in your terminal:
